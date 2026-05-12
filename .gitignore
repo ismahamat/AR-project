@@ -1,0 +1,43 @@
+# Unity generated folders
+/Library/
+/Temp/
+/Obj/
+/Build/
+/Builds/
+/Logs/
+/UserSettings/
+/MemoryCaptures/
+
+# Unity cache and generated files
+*.csproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+*.pidb.meta
+
+# Crash dumps
+mono_crash.*
+*.stackdump
+*.dmp
+
+# OS / IDE
+.DS_Store
+.vs/
+.idea/
+.vscode/
+
+# Version control metadata from other systems
+.plastic/
+ignore.conf
+
+# Local generated binaries
+TempAssembly.dll
