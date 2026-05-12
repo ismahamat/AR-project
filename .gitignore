@@ -37,6 +37,7 @@ mono_crash.*
 
 # Version control metadata from other systems
 .plastic/
+.plastic.disabled/
 ignore.conf
 
 # Local generated binaries
