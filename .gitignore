@@ -1,15 +1,28 @@
 # Unity generated folders
-/Library/
-/Temp/
-/Obj/
-/Build/
-/Builds/
-/Logs/
-/UserSettings/
-/MemoryCaptures/
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Uu]ser[Ss]ettings/
+[Mm]emoryCaptures/
 
-# Unity cache and generated files
+# Unity Version Control / Plastic SCM workspace data
+.plastic/
+ignore.conf
+*.private
+*.private.meta
+*.private.*
+*.private.*.meta
+^*.private.[0-9]+$
+^*.private.[0-9]+.meta$
+Assets/Plugins/PlasticSCM*
+Assets/AssetStoreTools/
+
+# Unity generated files
 *.csproj
+*.unityproj
 *.sln
 *.suo
 *.tmp
@@ -23,22 +36,32 @@
 *.opendb
 *.VC.db
 *.pidb.meta
+*.pdb.meta
+*.mdb.meta
+sysinfo.txt
+
+# Build outputs and packages
+*.apk
+*.aab
+*.app
+*.unitypackage
+crashlytics-build.properties
+AR-project_BurstDebugInformation_DoNotShip/
+*_BackUpThisFolder_ButDontShipItWithYourGame/
 
 # Crash dumps
 mono_crash.*
-*.stackdump
-*.dmp
+*.blob
 
-# OS / IDE
+# IDE / OS files
 .DS_Store
 .vs/
-.idea/
 .vscode/
+.idea/
+.gradle/
+Thumbs.db
+Desktop.ini
 
-# Version control metadata from other systems
-.plastic/
-.plastic.disabled/
-ignore.conf
-
-# Local generated binaries
-TempAssembly.dll
+# Local assistant/tooling folders
+.claude/
+.utmp/

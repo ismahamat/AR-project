@@ -9,8 +9,17 @@ EditorBuildSettings:
     path: Assets/Scenes/SampleScene.unity
     guid: 99c9720ab356a0642a771bea13969a05
   - enabled: 1
-    path: Assets/Scenes/glaucome.unity
-    guid: cc2227be9912c45f9bbf54791d830e4d
+    path: Assets/Scenes/Sim_Glaucome.unity
+    guid: 5ef95876d5f502f449a0d3d72a65199a
+  - enabled: 1
+    path: Assets/Scenes/Sim_Photophobie.unity
+    guid: 9b3f7c5d1a8e6429c5d7e1f4b6a3c829
+  - enabled: 1
+    path: Assets/Scenes/Sim_Nystagmus.unity
+    guid: 969240b6df5a645499459717d68c60c0
+  - enabled: 1
+    path: Assets/Scenes/Sim_Dyslexie.unity
+    guid: 61d954b7aa954f4ca7180fe6d90bb260
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 907bebf72f0c77e4e8dc4a535c154880, type: 2}
