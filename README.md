@@ -7,7 +7,7 @@ Florian BOZEL
 
 Notre projet est un simulateur de handicaps visuels en réalité mixte sur Meta Quest 3S. L'objectif est la sensibilisation : faire vivre au joueur, dans son propre environnement, ce que ressent une personne atteinte de glaucome, photophobie ou nystagmus. Le casque a été choisi pour la qualité de son passthrough, qui permet d'appliquer les effets de pathologie directement par-dessus la vue réelle plutôt que sur un décor purement virtuel.
 
-L'audience est large : tout le monde, sans connaissance médicale ni habitude des manettes. C'est ce qui a guidé toute la conception de l'interface, inspirée du menu Nintendo Wii — gros boutons, navigation simple, peu d'animation, faible charge cognitive — pour rester accessible aux enfants, aux personnes âgées et aux publics peu à l'aise avec la technologie.
+L'audience est large : tout le monde, sans connaissance médicale ni habitude des manettes. C'est ce qui a guidé toute la conception de l'interface, inspirée du menu Nintendo Wii, gros boutons, navigation simple, peu d'animation, faible charge cognitive, pour rester accessible aux enfants, aux personnes âgées et aux publics peu à l'aise avec la technologie.
 
 
 ## Architecture et parcours utilisateur
