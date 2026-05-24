@@ -17,7 +17,7 @@ Le parcours suit fidèlement la storyline du cahier des charges : Bienvenue → 
 Le menu principal (`MRMenuController`) construit toute son UI procéduralement, pour rester maintenable et éviter la dépendance à des prefabs bancales. On y retrouve un carrousel d'intro (5 slides : Bienvenue, Comment ça marche, Sécurité, Santé, Prêt ?), une grille de 8 tuiles, et un écran de détail par pathologie.
 
 
-## Must-Haves — ce qui a été tenu
+## Must-Haves - ce qui a été tenu
 
 ### Immersivité
 
@@ -34,21 +34,21 @@ L'effet ne sert pas le réalisme pour le réalisme, il modifie la perception du 
 
 L'œil 3D affiché pendant la phase d'explication met en valeur la partie défaillante : nerf optique pour le glaucome, pupille rouge avec animation de dilatation cyclique pour la photophobie, muscles oculomoteurs pour le nystagmus.
 
-## Game Mechanics — réalisé vs prévu
+## Game Mechanics - réalisé vs prévu
 
 Le cahier des charges listait cinq mécaniques cibles. Trois ont été réalisées intégralement, deux n'ont pas pu l'être.
 
-**Utiliser une canne virtuelle** — fait. Implémentée dans la scène glaucome, attachée à l'axe de la manette droite, avec détection de collision  sur les bandes des dalles et retour haptique.
+**Utiliser une canne virtuelle** - fait. Implémentée dans la scène glaucome, attachée à l'axe de la manette droite, avec détection de collision  sur les bandes des dalles et retour haptique.
 
-**Tous les handicaps à tester** — partiellement fait. Trois pathologies sont entièrement jouables (glaucome, photophobie, nystagmus) sur les huit prévues dans le menu. Les cinq autres (daltonisme, myopie, dyslexie, rétinopathie diabétique, troubles visiospatiaux) apparaissent dans la grille mais ne lancent pas encore de scène implémentée.
+**Tous les handicaps à tester** - partiellement fait. Trois pathologies sont entièrement jouables (glaucome, photophobie, nystagmus) sur les huit prévues dans le menu. Les cinq autres (daltonisme, myopie, dyslexie, rétinopathie diabétique, troubles visiospatiaux) apparaissent dans la grille mais ne lancent pas encore de scène implémentée.
 
-**Attraper et lancer des objets** — partiellement fait. Le grab est présent pour saisir l'oeil et l'inspecter de près mais n'a été implémenté à aucun gameplay. C'était envisagé pour les troubles visiospatiaux (attraper un objet mal localisé en profondeur) mais cette scène n'a pas été créée.
+**Attraper et lancer des objets** - partiellement fait. Le grab est présent pour saisir l'oeil et l'inspecter de près mais n'a été implémenté à aucun gameplay. C'était envisagé pour les troubles visiospatiaux (attraper un objet mal localisé en profondeur) mais cette scène n'a pas été créée.
 
-**OCR sur une feuille pour la dyslexie** — non fait. La scène dyslexie n'a pas été commencée. L'idée d'utiliser une caméra passthrough pour lire un vrai papier puis remixer les lettres aurait demandé de l'OCR que le temps n'a pas permis d'intégrer, et qui pose en plus des questions de latence sur le casque.
+**OCR sur une feuille pour la dyslexie** - non fait. La scène dyslexie n'a pas été commencée. L'idée d'utiliser une caméra passthrough pour lire un vrai papier puis remixer les lettres aurait demandé de l'OCR que le temps n'a pas permis d'intégrer, et qui pose en plus des questions de latence sur le casque.
 
-**Verser de l'eau** — non fait. Cette mécanique servait à illustrer la perte de coordination ou la mauvaise perception de la profondeur. Elle aurait demandé une gestion de fluide qui n'a pas été abordée.
+**Verser de l'eau** - non fait. Cette mécanique servait à illustrer la perte de coordination ou la mauvaise perception de la profondeur. Elle aurait demandé une gestion de fluide qui n'a pas été abordée.
 
-## Gameplay — limites rencontrées
+## Gameplay - limites rencontrées
 
 Le challenge du glaucome (suivre un chemin de dalles guidé à la canne) est fonctionnel mais reste linéaire : un seul tracé prédéfini, pas de génération procédurale ni de difficulté progressive.
 
